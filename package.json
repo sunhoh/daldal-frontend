@@ -1,0 +1,26 @@
+{
+  "name": "sunhoh.log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:v1": "pnpm --filter v1 dev",
+    "dev:v2": "pnpm --filter v2 dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "typescript": "^5.6.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "tailwindcss": "^3.4.1"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
