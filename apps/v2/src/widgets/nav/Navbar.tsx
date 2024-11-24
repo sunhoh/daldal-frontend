@@ -1,11 +1,11 @@
 const Navbar = () => {
   return (
-    <nav className="border ">
+    <nav className="border">
       {/* Logo Section */}
-
-      <div className="flex items-center justify-between mx-20 my-4 ">
+      {/* mx-20 */}
+      <div className="flex items-center justify-between px-6 my-4">
         <div className="flex items-center space-x-2">
-          <span className="text-lg font-semibold">dltjsgh</span>
+          <span className="text-lg font-semibold">HOME</span>
         </div>
         {/* Buttons Section */}
         <div className="flex items-center space-x-2">
